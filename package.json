@@ -1,0 +1,20 @@
+{
+  "name": "bookapi",
+  "version": "1.0.0",
+  "description": "Dans ce cours, nous allons apprendre à concevoir un back office en utilisant une architecture API REST avec Node.js, Express, MySQL et Sequelize. Nous allons construire un mini-projet de gestion de bibliothèque pour illustrer les concepts clés.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.3"
+  }
+}
