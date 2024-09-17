@@ -5,11 +5,19 @@ const authorRoutes = require('./routes/authorRoutes');
 const authRoutes = require('./routes/authRoutes');
 const errorHandler = require('./middlewears/errorHandler');
 const sequelize = require('./config/database');
+const cors = require('cors');
 
 
 // Configuration
 const app = express();
 app.use(express.json());
+
+// cors : 
+app.use(cors({
+    origin: 'http://localhost:5173',
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+}));
 
 // Routes
 app.use('/api/auth', authRoutes);
