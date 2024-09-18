@@ -1,10 +1,10 @@
-const Book = require('./book');
 const Author = require('./author');
-const User = require('./user'); // Ajoutez cette ligne pour importer le modèle User
+const Book = require('./book');
+const User = require('./user'); // Assurez-vous que ce modèle est correctement configuré
 
-// Définir les relations entre les modèles avec des alias
+// Définir les relations entre les modèles avec des alias uniques
 Author.hasMany(Book, { as: 'books', foreignKey: 'authorId' });
 Book.belongsTo(Author, { as: 'author', foreignKey: 'authorId' });
 
 // Exporte les modèles
-module.exports = { Book, Author, User }; // Ajoutez User aux exportations
+module.exports = { Author, Book, User };

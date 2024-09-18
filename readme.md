@@ -1,4 +1,7 @@
 # BookApi
+**Lien Utile :**
+front de l'application: https://github.com/MaxCordiau/FRONT_BookAPI
+
 
 ## Introduction
 Dans ce cours, nous allons apprendre à concevoir un back office en utilisant une architecture API REST avec Node.js, Express, MySQL et Sequelize. Nous allons construire un mini-projet de gestion de bibliothèque pour illustrer les concepts clés.
