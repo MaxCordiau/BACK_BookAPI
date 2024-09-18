@@ -13,8 +13,9 @@ Notre système permettra de :
 * Gérer les livres (ajouter, lister, mettre à jour, supprimer)
 * Gérer les auteurs (ajouter, lister, mettre à jour, supprimer)
 * Associer des livres à des auteurs
-
- # Configuration de l'environnement de travail
+> [!NOTE]
+> # Configuration de l'environnement de travail
+> test
 
 ### Installation des dépendances
 Dans le terminal, vous allez entrer les commandes :
